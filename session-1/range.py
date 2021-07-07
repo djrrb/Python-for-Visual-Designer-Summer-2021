@@ -1,3 +1,5 @@
+# the range() function helps us create sequences of numbers
+
 # range (
 #    where we start (default: 0)
 #    where we end
