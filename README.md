@@ -64,6 +64,7 @@ This Type@Cooper course was originated by [Andy Clymer](http://www.andyclymer.co
 #### Session links
 
 * [**Session 1 scripts**](/session-1)
+* [**Session 1 recording**](https://cooper.zoom.us/rec/share/z4nh58RPNt3z215tDwP5GHx060mpI-Q_PPjqVGzkEdU1bXemhamUV40ubyAtG0Bk.Y5F2OlzphEhDWfqg?startTime=1625610420000)
 
 
 #### Optional readings
