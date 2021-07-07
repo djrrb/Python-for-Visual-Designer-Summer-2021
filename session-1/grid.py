@@ -1,10 +1,11 @@
 # in this script, we will use loops to make a grid of shapes
 
 # Anatomy of a loop:
-    # for = python keyword for loop
+    # for = python keyword for looping through a sequence
     # x = variable name, can be anything. the value of this variable will change every time we run the block of code.
     # in = connects us to the sequence we will loop through
     # range(0, 10) = use the range() function to get a sequence of numbers. range takes (start, end, step)
+    # : = colon signifies the beginning of an indented code block that will be repeated
 
 # loop through the rows
 # the y variable will start at 0 and increase by 100 each time until it hits 1000
