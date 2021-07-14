@@ -1,5 +1,12 @@
-for y in range(0, 1000, 100):
-    for x in range(0, 1000, 100):
+rs = 50
+
+# loop through y
+for y in range(0, height(), rs):
+    # loop through x
+    for x in range(0, width(), rs):
+        # set the fill randomly
         fill(random(), random(), random())
-        rect(x, y, 50, 50)
-        rect(x+50, y+50, 50, 50)
+        # rather than drawing one rectangle in our grid
+        # draw two, one in the lower left of the grid cell (x, y) and one in the upper right (x+rs/2, y+rs/2)
+        rect(x, y, rs/2, rs/2)
+        rect(x+rs/2, y+rs/2, rs/2, rs/2)
