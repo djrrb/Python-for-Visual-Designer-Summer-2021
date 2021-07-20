@@ -1,0 +1,1 @@
+image('hello-world.pdf', (0, 0))
