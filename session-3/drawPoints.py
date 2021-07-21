@@ -23,3 +23,4 @@ for contour in bp:
             x, y = point
             oval(x-r, y-r, r*2, r*2)
             pointIndex += 1
+            
