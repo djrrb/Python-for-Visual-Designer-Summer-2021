@@ -44,6 +44,7 @@ for v in range(1, 12, 2):
             # otherwise, add it as a line 
             else:
                 bp2.lineTo(*newSegment)
+        bp2.closePath()
 
     # move down to the next line
     translate(0, -mySize)
