@@ -1,26 +1,19 @@
+# make a function that doesn’t already exist
 def triangle(x, y, w, h):
     print(x, y, w, h)
+    # make a polygon
     polygon(
-        (x, y),
-        (x+w/2, y+h),
-        (x+w, y)
+        # lower left
+        (x, y), 
+        # half way across, all the way up
+        (x+w/2, y+h), 
+        # all the way across, back to the bottom
+        (x+w, y) 
         )
         
-def pentagon(x, y, w, h):
-    pointList = []
-    for pt in range(5):
-        pointList.append(
-            (
-                randint(-100, 100), 
-                randint(-100, 100)
-            )
-        )
-    polygon(*pointList)
-        
-pentagon(0, 0, 200, 200)
+# use our triangle function
 stroke(0)
 strokeWidth(10)
-line((0, 0), (100, 100))
 triangle(0, 0, 500, 500)
 fill(1, 0, 0)
 triangle(500, 500, 100, 100)
