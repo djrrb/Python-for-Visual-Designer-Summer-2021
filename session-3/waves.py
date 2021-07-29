@@ -1,7 +1,7 @@
-# define a function that is a shape
-def myShape(sh):
+def myShape(sh=200):
+    
     # handle starting length
-    hsl = 950
+    hsl = 130
     # get the right and left handle lengths
     rightHandleLength = randint(-hsl, hsl)
     leftHandleLength = randint(-hsl, hsl)
@@ -21,19 +21,11 @@ def myShape(sh):
         )
     drawPath(bp)
 
-# this background function makes 10 shapes at different heights
-def drawBackground():
-    # define a shape height
-    sh = 200
-    # loop 10 times
-    for i in range(10):
-        # set a random semi-transparent color
-        fill(random(), random(), random(), .2)
-        # draw the shape
-        myShape(sh)
-        # next time, make the shape 100 units taller
-        sh += 100
 
-# make a new page and draw the background
-newPage('Letter')
-drawBackground()
+
+fill(random(), random(), random(), .2)
+
+shapeHeight = 100
+for i in range(10):
+    myShape(shapeHeight)
+    shapeHeight += 100
